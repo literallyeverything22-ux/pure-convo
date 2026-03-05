@@ -1,0 +1,5 @@
+{
+  "name": "Chat Purifier",
+  "description": "Transform messy, copied AI chat logs into clean, structured conversations using Gemini.",
+  "requestFramePermissions": []
+}
