@@ -37,3 +37,32 @@ Never commit your API key to GitHub. Instead, use an environment variables file:
    ```bash
    npm run dev
    ```
+
+## 🪄 How to Use Chat Purifier
+
+This tool helps you extract clean, readable conversations from messy AI chat interfaces (like ChatGPT or Claude) that are full of timestamps, system UI, and copy buttons.
+
+### Method 1: The One-Click Capture (Recommended)
+We've built a handy browser bookmarklet to make grabbing your chats effortless:
+1. Open the Chat Purifier app.
+2. Click **"Install One-Click Capture"** to open the setup modal.
+3. Drag the **"Purify Chat"** button into your browser's Bookmarks/Favorites bar.
+4. Go to any long chat on ChatGPT or Claude.
+5. Click the **"Purify Chat"** bookmark. It will automatically scroll through your chat to load everything and copy the raw text to your clipboard.
+6. Return to Chat Purifier, paste the text into the large text box, and click **"Clean Conversation"**.
+
+### Method 2: Manual Copy & Paste
+1. Go to your AI chat (ChatGPT, Claude, etc.).
+2. Manually highlight and copy the entire page text (or press `Ctrl+A` / `Cmd+A` and copy).
+3. Paste all of that messy text directly into the Chat Purifier text area.
+4. Click **"Clean Conversation"**.
+
+### Exporting Your Cleaned Chat
+Once Gemini processes your text, you will see a clean, distraction-free view of your conversation. You can then:
+* **Copy Text:** Quickly copy the cleaned text to your clipboard.
+* **Export as Markdown (.md):** Great for Obsidian, Notion, or GitHub.
+* **Export as JSON (.json):** Perfect for developers building datasets.
+* **Export as Plain Text (.txt):** Simple, unformatted text.
+* **Export as Web Page (.html):** Creates a standalone, styled web page of your chat that you can open in any browser.
+
+Attachments detected in your original chat will be neatly listed at the bottom of the export!
