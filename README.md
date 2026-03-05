@@ -40,6 +40,11 @@ Never commit your API key to GitHub. Instead, use an environment variables file:
 
 ## 🪄 How to Use Chat Purifier
 
+Watch the tool tutorial below to see how it works!
+
+<video src="pure-chat-tutorial.mp4" controls="controls" width="100%" height="auto">
+</video>
+
 This tool helps you extract clean, readable conversations from messy AI chat interfaces (like ChatGPT or Claude) that are full of timestamps, system UI, and copy buttons.
 
 ### Method 1: The One-Click Capture (Recommended)
